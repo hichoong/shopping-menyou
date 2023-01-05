@@ -1,5 +1,6 @@
 package com.mall.menyou.member.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 
 import javax.persistence.*;
@@ -30,6 +31,9 @@ public class Member {
 
     @Enumerated(EnumType.STRING)
     private Gender gender;
+
+
+
 
 
 }
